@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Kaisei HarunoUmi", serif;
+}
+
+.navbar{
+    width:100%;
+    height:95px;
+    padding-top: 20px;
+    background-color: #365314;
+
+
+}
+.nav-heading{   
+    color:white;
+    font-weight: 700;
+    font-size:30px;
+    padding-left:   23px;
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content{
+    list-style: none;
+    display:inline-block;
+    /* font-weight: 500; */
+    margin: 15px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color:white;    
+    margin-right:30px ;
+}
+a:hover{
+    text-decoration: underline;
+}
+.hero-section{
+    width:100%;
+    height:43.75rem;
+    display:flex;
+    margin :25px;
+}
+.hero-image
+{
+    width:684px;
+    height: 578px;
+}
+.text {
+    margin-top: 150px;
+    font-size:25px;
+    padding:30px;
+    color:#365314;
+    margin-left: 130px;
+}
+.heading{
+    margin-bottom:20px;
+}
+.paragraph{
+   margin-bottom: 20px;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #365314;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+}
+.hero-button a{
+    text-decoration: none;
+    color:white;
+}
+
+/*middle section*/
+.first-section-heading{
+    text-align: center;
+    color: #365314;
+ 
+  
+}
+.section-first{
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-second{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.services-section{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    overflow-y: hidden;
+ 
+}
+.services-card{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 300px;
+    background-color: #365314;   
+}
+.services-card-image{
+    width: 330px;
+    height: 150px;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.second-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:#365314;
+    font-size:45px ;
+    margin-top: 40px;
+    gap:20px;
+    
+}
+
+.second-section-booking{
+    display: flex;
+    gap:8.938rem;
+    justify-content: center;
+}
+
+.salon-services{
+   width:330px;
+   height:400px;
+   background-color:black;
+}
+.salon-image{
+   display:flex;
+  
+} 
+
+.salon-card{
+    display: flex;
+    color:white;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    gap: 20px;
+}
+.salon-button{
+    display: flex;
+    background-color: #365314;
+    color:white;
+    font-size: 25px;
+}
+.explore-button{
+    width: 30%;
+    background-color: #365314;
+    margin-top: 30px;
+    padding: 6px;
+    color:white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.explore-button-link
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color:white;
+}
+.third-section{
+    margin-top:5%;
+    text-align: center;
+    font-size: 25px;
+    color:#365314;    
+
+}
+.third-section-heading{
+    display: flex;
+    justify-content: space-around;
+    /* gap:30%; */
+    text-align: center; 
+    margin-top:5%;
+}
+.third-section-text{
+    text-align: center;
+    padding:90px;
+}
+.third-section-title{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.third-section-list{
+    display: flex;
+    gap:25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.third-section-picture{
+  
+   /* width:400px; */
+   object-fit: contain;
+  
+}
+.register-button{
+    display:flex;
+    font-size:18px;
+    gap:8px;
+    justify-content: center;
+    background-color: #365314;
+    color:white;
+    cursor:pointer;
+   width:30%;
+   align-items: center;
+   margin-top: 10%  ;
+}
+.register-button a{
+    color : white;
+    text-decoration: none;
+}
+
+/* Fourth Section */
+
+.fourth-section{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    gap: 12.5rem;
+    margin-top: 7.688rem;
+        
+}
+
+.fourth-section-left{
+    width:28.313rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8.688rem;
+}
+
+.faq{
+    color: #65A30D;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.faq-full{
+    color: #365314;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fourth-section-askus{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.question-contactus{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contactus-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 13.625rem;
+    height:3.938rem;
+    color: #ffffff;
+    background-color: #365314;
+    border: 2px solid #365314;
+    cursor: pointer;
+    font-size: 25px;
+}
+.contactus-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.fourth-section-right{
+    width: 35.5rem;
+}
+
+.fourth-section-question-list{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.question-container{
+    border-bottom: 1px solid #3F6212;
+    
+}
+.question-list{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 16px 0px;
+}
+
+.hidden-content{
+    display: none;
+}
+.hidden-content.show {
+    display: block;
+    width:25.625rem;
+    color: rgba(30,30,30,0.8);
+    font-size:16px;
+    transition: height 0.3s ease-in;
+}
+.plus {
+    transition: transform 0.2s;
+}
+
+.plus.active {
+    transform: rotate(45deg);
+}
+
+/* Fifth-section */
+.fifth-section
+{
+    display:flex;
+    justify-content: space-around;
+    gap:10rem;
+    margin-top: 8%;
+  }
+.fifth-section-left{
+    width:470px;
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+}
+
+.fifth-bottom{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.fifth-section-mail{
+    width:10%;
+    display: flex;
+    gap:25px;
+    text-align: center;
+}
+.fifth-section-phone{
+    margin-top: 10px;
+    display:flex;
+    gap:20px;
+    text-align: center;
+
+}
+
+.fifth-section-company{
+    padding-top: 3px;
+}
+
+
+.name-heading{
+    padding:10px;
+}
+.message-input {
+    height:75px;
+}
+.submit-button{
+    background-color: #365314;
+    color:#ffffff;
+    padding:12px;
+    font-size: 20px;
+  
+}
+.fifth-contact{
+    color:#365314;
+    font-size:45px;
+    font-weight:700;
+}
+.fifth-para{
+    margin-top: 2%;
+    margin-bottom: 6%;
+    font-size: 25px;
+}
+
+
+
+/* footer section */
+footer{
+    width:100%;
+    height:900px;
+    background-color:#000000;
+
+}
+.footer-section{
+    color:#65A30D;
+    font-size: 45px;
+    padding-top: 30px;
+    font-weight: 500;
+    margin: 5%;
+
+}
+.footer-paragraph
+{
+    text-align: center;
+}
+.footer-images{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.container{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.footer-content {
+    font-size: 18px;
+
+}
+.footer-heading{
+    font-size: 15px;
+    color:white;
+
+}
+
+.footer-heading-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-email{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    display: flex;
+    gap:10px;
+}
+
+.footer-contact{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.list{
+    font-size: 15px;
+    list-style: none;
+}
+.form-line{
+    width:205%;
+    height:2px;
+    border:2px solid white;
+    margin:5%
+}
+
+.bottom-section{
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.footer-line{
+    border: 1px solid #ffffff;
+    width:87rem;
+}
+
+.footer-bottom-info{
+    color: #65A30D;
+    font-size:18px;
+}
